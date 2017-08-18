@@ -7,8 +7,8 @@ import (
 
 	"code.cloudfoundry.org/bbs/models"
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/executor"
-	fake_client "code.cloudfoundry.org/executor/fakes"
+	"github.com/cceasy/executor"
+	fake_client "github.com/cceasy/executor/fakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/rep/maintain"

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock"
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/rep/evacuation/evacuation_context"
 )

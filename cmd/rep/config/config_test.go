@@ -7,8 +7,8 @@ import (
 
 	"code.cloudfoundry.org/debugserver"
 	"code.cloudfoundry.org/durationjson"
-	executorinit "code.cloudfoundry.org/executor/initializer"
-	"code.cloudfoundry.org/executor/initializer/configuration"
+	executorinit "github.com/cceasy/executor/initializer"
+	"github.com/cceasy/executor/initializer/configuration"
 	loggregator_v2 "code.cloudfoundry.org/go-loggregator/compatibility"
 	"code.cloudfoundry.org/lager/lagerflags"
 	"code.cloudfoundry.org/locket"

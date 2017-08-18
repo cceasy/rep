@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 	"code.cloudfoundry.org/lager"
 )
 
@@ -48,6 +48,8 @@ func (d *containerDelegate) GetContainer(logger lager.Logger, guid string) (exec
 
 func (d *containerDelegate) RunContainer(logger lager.Logger, req *executor.RunRequest) bool {
 	logger.Info("running-container")
+	// XXX ljh
+	logger.Info("## container_delegate # RunContainer", lager.Data{"request": req})
 	err := d.client.RunContainer(logger, req)
 	if err != nil {
 		logInfoOrError(logger, "failed-running-container", err)

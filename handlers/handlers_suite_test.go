@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	executorfakes "code.cloudfoundry.org/executor/fakes"
+	executorfakes "github.com/cceasy/executor/fakes"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/rep"
 	"code.cloudfoundry.org/rep/auctioncellrep/auctioncellrepfakes"

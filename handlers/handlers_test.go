@@ -5,7 +5,7 @@ import (
 	"code.cloudfoundry.org/rep/evacuation/evacuation_context/fake_evacuation_context"
 	"code.cloudfoundry.org/rep/handlers"
 
-	executorfakes "code.cloudfoundry.org/executor/fakes"
+	executorfakes "github.com/cceasy/executor/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

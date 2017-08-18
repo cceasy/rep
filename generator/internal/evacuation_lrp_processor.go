@@ -2,7 +2,7 @@ package internal
 
 import (
 	"code.cloudfoundry.org/bbs"
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/rep"
 )

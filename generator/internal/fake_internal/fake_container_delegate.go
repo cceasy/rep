@@ -4,7 +4,7 @@ package fake_internal
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/rep/generator/internal"
 )
